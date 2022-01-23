@@ -7,7 +7,6 @@ class TrendingCard extends StatelessWidget {
   final String title;
   final String description;
   final String instructor;
-
   final String rating;
 
   const TrendingCard({

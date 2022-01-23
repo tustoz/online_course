@@ -2,7 +2,7 @@ const trendingData = [
   {
     'title': 'Basics of Python',
     'imageUrl': 'assets/images/blue.png',
-    'instructor': 'Paul Smith',
+    'instructor': 'Tintoretto',
     'rating': '874 Ratings',
     'star': '4',
     'description':
@@ -11,7 +11,7 @@ const trendingData = [
   {
     'title': 'Intro to HTML',
     'imageUrl': 'assets/images/orange.png',
-    'instructor': 'Rudeus Greyrat',
+    'instructor': 'Massacio',
     'rating': '609 Ratings',
     'star': '5',
     'description':
@@ -20,7 +20,7 @@ const trendingData = [
   {
     'title': 'Flutter 101',
     'imageUrl': 'assets/images/green.png',
-    'instructor': 'John Paul',
+    'instructor': 'Giovanni',
     'rating': '563 Ratings',
     'star': '4',
     'description':
@@ -34,7 +34,7 @@ const courseData = [
     'sessions': '22 Sessions',
     'attendes': '45 Attendes',
     'imageUrl': 'assets/images/illustration1.png',
-    'instructor': 'Rudeus Greyrat',
+    'instructor': 'Leonardo Da Vinci',
     'rating': '609 Ratings',
     'star': '5',
     'description':
@@ -45,7 +45,7 @@ const courseData = [
     'sessions': '18 Sessions',
     'attendes': '45 Attendes',
     'imageUrl': 'assets/images/illustration2.png',
-    'instructor': 'Rudeus Greyrat',
+    'instructor': 'Van Gogh',
     'rating': '609 Ratings',
     'star': '5',
     'description':
@@ -56,7 +56,7 @@ const courseData = [
     'sessions': '14 Sessions',
     'attendes': '45 Attendes',
     'imageUrl': 'assets/images/illustration1.png',
-    'instructor': 'Rudeus Greyrat',
+    'instructor': 'Michelangelo',
     'rating': '609 Ratings',
     'star': '5',
     'description':
@@ -67,7 +67,7 @@ const courseData = [
     'sessions': '17 Sessions',
     'attendes': '45 Attendes',
     'imageUrl': 'assets/images/illustration2.png',
-    'instructor': 'Rudeus Greyrat',
+    'instructor': 'Rafael',
     'rating': '609 Ratings',
     'star': '5',
     'description':
