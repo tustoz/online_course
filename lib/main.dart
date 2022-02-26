@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:online_course/constants.dart';
 import 'package:online_course/widgets/bottom_bar.dart';
 
-void main() {
-  runApp(const OnlineCourse());
-}
+void main() => runApp(const OnlineCourse());
 
 class OnlineCourse extends StatelessWidget {
   const OnlineCourse({Key? key}) : super(key: key);

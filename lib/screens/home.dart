@@ -12,18 +12,23 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Stack(
+        child: ListView(
           children: [
-            const ImageContainer(
-              imageUrl: 'assets/images/background.png',
-            ),
-            ListView(
-              physics: const BouncingScrollPhysics(),
-              children: const [
-                Header(),
-                SearchBar(),
-                TrendingList(),
-                CourseList(),
+            Stack(
+              children: [
+                const ImageContainer(
+                  imageUrl: 'assets/images/background.png',
+                ),
+                Positioned(
+                  child: Column(
+                    children: const [
+                      Header(),
+                      SearchBar(),
+                      TrendingList(),
+                      CourseList(),
+                    ],
+                  ),
+                ),
               ],
             ),
           ],

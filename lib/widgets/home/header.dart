@@ -34,7 +34,7 @@ class Header extends StatelessWidget {
                           style: regular.copyWith(fontSize: 13),
                         ),
                         Text(
-                          'Maxi Aditya',
+                          'Tustoz',
                           style: regular17,
                         ),
                       ],

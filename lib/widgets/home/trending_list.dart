@@ -22,6 +22,7 @@ class TrendingList extends StatelessWidget {
           child: Padding(
             padding: const EdgeInsets.only(left: 23),
             child: ListView.builder(
+              physics: const BouncingScrollPhysics(),
               scrollDirection: Axis.horizontal,
               itemCount: trendingData.length,
               itemBuilder: (context, index) {

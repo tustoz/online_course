@@ -45,6 +45,7 @@ class DetailScreen extends StatelessWidget {
             ),
             const SyllabusList(),
             const CustomButton(title: 'Buy Course'),
+            const SizedBox(height: 20),
           ],
         ),
       ),
